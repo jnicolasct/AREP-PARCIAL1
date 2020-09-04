@@ -51,7 +51,7 @@ public class App
     }
 
     /**
-     * Metodo que calcula la media y desviacion estandar de los adtos que son ingresados por la pagina web
+     * Metodo que ordena la lista enviada y calcula la suma y el promedio de dicha lista
      * @param req Solicitud hecha por spark
      * @param res Solicitud hecha por spark
      * @return un string que contiene el esquema de una pagina web

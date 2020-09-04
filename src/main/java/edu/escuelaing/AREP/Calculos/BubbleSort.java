@@ -5,6 +5,11 @@ import java.util.ArrayList;
 public class BubbleSort {
 
 
+    /**
+     * Metodo de ordenamiento de una lista
+     * @param listaInt lista la cual se quiere ordenar
+     * @return lista ordenada
+     */
     public static ArrayList<Double> sort(ArrayList<Double> listaInt) {
         boolean swap = true;
         while(swap){

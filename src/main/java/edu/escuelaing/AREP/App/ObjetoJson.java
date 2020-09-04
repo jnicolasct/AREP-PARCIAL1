@@ -10,6 +10,12 @@ public class ObjetoJson {
     private double suma;
     private double promedio;
 
+    /**
+     * Metodo contructor de unaonjeto que va a ser json
+     * @param ordenada lista ordenada de valores
+     * @param suma suma de la lista ordenada
+     * @param promedio promedio de la lista ordenada
+     */
     public ObjetoJson(ArrayList<Double> ordenada, double suma, double promedio) {
         this.ordenada = ordenada;
         this.suma = suma;
